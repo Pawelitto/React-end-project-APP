@@ -19,6 +19,7 @@ const AsideMenu = () => {
   return (
     <section className={style()}>
       <UserMenu isUserLogged={Boolean(user)} />
+      {adminMenuComponent}
     </section>
   );
 };
